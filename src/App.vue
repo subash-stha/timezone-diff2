@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/time.jpeg">
+  <TimeDiff msg="Welcome to the time difference App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TimeDiff from './components/TimeDiff.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TimeDiff
   }
 }
 </script>
